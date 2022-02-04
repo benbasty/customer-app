@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id = "customer1" class ="com.springprojects.customerapp.Customer">
+        <property  name="id" value="001"/>
+        <property  name="firstName" value="Ali"/>
+        <property  name="lastName" value="Otto"/>
+        <property  name="address" value="St Alain"/>
+    </bean>
+    <bean id = "customer2" class = "com.springprojects.customerapp.Customer">
+        <property  name="id" value="002"/>
+        <property  name="firstName" value="Atta"/>
+        <property  name="lastName" value="Mamoush"/>
+        <property  name="address" value="Avenue 3rd"/>
+    </bean>
+    <bean id = "customer3" class = "com.springprojects.customerapp.Customer">
+        <property  name="id" value="003"/>
+        <property  name="firstName" value="Garry"/>
+        <property  name="lastName" value="John"/>
+        <property  name="address" value="Eliott Garden"/>
+    </bean>
+    <bean id = "customer4" class = "com.springprojects.customerapp.Customer">
+        <property  name="id" value="004"/>
+        <property  name="firstName" value="Toffee"/>
+        <property  name="lastName" value="Akala"/>
+        <property  name="address" value="Mamushka Center"/>
+    </bean>
+</beans>
